@@ -1,0 +1,18 @@
+# Ecological Resistance Model Configuration
+# For ESA WorldCover 2021 v200 land-cover classes
+# Resistance values are illustrative and should be calibrated for specific species/ecological contexts
+# Classes with traversable=0 are treated as blocked (infinite resistance)
+# Higher resistance = more difficult/costly for wildlife movement
+
+class_code,class_name,resistance,traversable,notes
+10,Tree cover,1.0,1,"Dense forest / tree cover — most suitable habitat, lowest resistance"
+20,Shrubland,2.0,1,"Shrubland / sparse vegetation — moderate habitat suitability"
+30,Grassland,3.0,1,"Grassland — suitable for many species, moderate resistance"
+40,Cropland,5.0,1,"Cropland / agricultural land — fragmented, higher resistance"
+50,Built-up,999999.0,0,"Built-up / urban areas — effectively impassable, blocked"
+60,Bare / sparse vegetation,7.0,1,"Bare ground / sparse vegetation — high resistance"
+70,Snow and ice,999999.0,0,"Permanent snow and ice — blocked for most terrestrial species"
+80,Permanent water bodies,8.0,1,"Permanent water — species-dependent, generally high resistance"
+90,Herbaceous wetland,4.0,1,"Wetland vegetation — moderate resistance, species-dependent"
+95,Mangroves,3.0,1,"Mangroves — coastal habitat, moderate resistance"
+100,Moss and lichen,6.0,1,"Moss and lichen — sparse high-latitude vegetation, higher resistance"

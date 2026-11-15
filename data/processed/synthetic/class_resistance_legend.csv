@@ -1,0 +1,9 @@
+code,category,illustrative_resistance,hex_colour,treatment
+1,Dense habitat / tree cover,1.0,#176B3A,Traversable
+2,Shrubland / sparse vegetation,2.0,#72A66A,Traversable
+3,Grassland,3.0,#C6D96B,Traversable
+4,Cropland,5.0,#E8D28A,Traversable
+5,Barren land,7.0,#C7B6A0,Traversable
+6,Built-up,,#B34A4A,Blocked in baseline model
+7,Road,12.0,#34383D,High crossing penalty
+8,Water,8.0,#4A9BCB,Species-dependent
